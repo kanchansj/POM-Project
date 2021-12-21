@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 5.67 s <<< FAILURE! - in TestSuite
+com.atipune.pom.testpages.MyAccountsPageTests.Setup  Time elapsed: 4.823 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\Sep_Mrng_2021_JavaAutomation\POM\drivers\chromedriver.exe
+	at com.atipune.pom.testpages.MyAccountsPageTests.Setup(MyAccountsPageTests.java:22)
+
+com.atipune.pom.testpages.HomePageTests.Setup  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\Sep_Mrng_2021_JavaAutomation\POM\drivers\chromedriver.exe
+	at com.atipune.pom.testpages.HomePageTests.Setup(HomePageTests.java:22)
+
