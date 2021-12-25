@@ -9,7 +9,7 @@ public class TestBase {
 	
 	public static void initDriver() 
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\java b\POM\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\java b\POMDEMO\drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 	
